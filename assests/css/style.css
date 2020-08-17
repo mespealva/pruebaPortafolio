@@ -15,7 +15,7 @@ a:hover{
 }
 .top{
     position: absolute;
-    top: 25%;
+    top: 27%;
     right: 16px;
 }
 #img{
@@ -25,6 +25,7 @@ a:hover{
 footer{
     color: #ffffff;
 }
+
 *{
     scroll-behavior: smooth;
 }

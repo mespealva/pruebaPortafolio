@@ -4,6 +4,3 @@ $('#myModal').on('shown.bs.modal', function () {
   })
 //carusel
   $('.carousel').carousel();
-
-  //smooth
-  
