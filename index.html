@@ -28,11 +28,11 @@
             <li class="nav-item active">
               <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#about">Sobre Mi</a>
+            </li>-->
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre Mi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Areas</a>
+              <a class="nav-link" href="#exp">Areas</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Trabajos</a>
@@ -57,22 +57,150 @@
       
       <!--about-->
       <header class="hero">
-          <img src="assests/img/homeoffice.jpg" alt="portada">
-          <h1 class="top text-white-50 bg-dark">Mi Nombre es <br><span class="pt-3">Maria Alvarez</span></h1>
+          <img src="assests/img/homeoffice.jpg" alt="portada" id="img">
+          <h1 class="top text-white bg-dark">Mi Nombre es <br><span class="pt-3">Maria Alvarez</span></h1>
       </header>
-      <section>
-
+      <section class="container" id="about">
+          <div class="d-none d-lg-block d-xl-block">
+              <h2 class="p-3 text-center">Sobre Mi</h2>
+              <div class="row p-5">
+                  <div class="col-6">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, aut impedit blanditiis hic dolorem expedita, assumenda suscipit amet libero quidem ex fugit architecto, ullam quisquam ea quibusdam autem maxime modi?</p>
+                  </div>
+                  <div class="col-6">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem, ratione illum commodi aliquid error vero accusantium ipsum vitae inventore cumque ad optio repudiandae fugiat nihil accusamus perspiciatis molestiae debitis.</p>
+                  </div>
+              </div>
+          </div>
       </section>
       <!--areas-->
-      <section>
-
-      </section>
-      <!--areas-->
-      <section>
-
+      <section id="exp" class="bg-secondary text-center text-white">
+          <div class="container">
+              <div class="d-none d-md-block d-lg-block d-xl-block">
+                  <h3 class="pt-4">Areas</h3>
+                  <div class="row p-5">
+                      <div class="col-md-4 p-2">
+                          <i class="fa fa-bullhorn fa-6x" aria-hidden="true"></i>
+                          <br>
+                          <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">Marketing Digital</button>  
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Marketing Digital</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card" style="width: 18rem;">
+                                        <ul class="list-group list-group-flush">
+                                          <li class="list-group-item">Google Ads</li>
+                                          <li class="list-group-item">Google Analitics</li>
+                                          <li class="list-group-item">Faceboock Ads</li>
+                                          <li class="list-group-item">Estrategia de Contenidos</li>
+                                        </ul>
+                                      </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <!--desarrollo web-->
+                      <div class="col-md-4 p-2">
+                        <i class="fas fa-file-code fa-6x" aria-hidden="true"></i>
+                        <br>
+                        <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-secondry" data-toggle="modal" data-target="#exampleModal">Desarollo Web</button>  
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Desarrollo Web</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="card" style="width: 18rem;">
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">HTML</li>
+                                      <li class="list-group-item">CSS</li>
+                                      <li class="list-group-item">Boostrap</li>
+                                      <li class="list-group-item">JavaScript</li>
+                                    </ul>
+                                  </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <i class="fas fa-cart-arrow-down fa-6x" aria-hidden="true"></i>
+                        <br>
+                        <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ventas</button>  
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Ventas</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="card" style="width: 18rem;">
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Experiencia en Ventas</li>
+                                      <li class="list-group-item">Copywriting</li>
+                                    </ul>
+                                  </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="d-sm-block d-xs-block d-md-none">
+                  <h3 class="pt-4">Areas</h3>
+                  <hr>
+                  <div class="row text-center">
+                      <div class="col-12 p-3">
+                          <h3>Marketing Digital</h3>
+                          <i class="fa fa-bullhorn fa-5x" aria-hidden="true"></i>
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ab dolores reiciendis itaque aspernatur, iste expedita ipsa commodi id praesentium nihil ullam rerum, iusto illum quo cupiditate quasi. Quisquam, adipisci.</p>
+                      </div>
+                      <div class="col-12 p-3">
+                          <h3>Desarrollo Web</h3>
+                          <i class="fa fa-code fa-5x" aria-hidden="true"></i>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illum esse doloremque suscipit est consequatur praesentium cupiditate, dolores ut facere maiores voluptates repellendus sequi reiciendis harum consequuntur nulla! Voluptate, saepe.</p>
+                      </div>
+                      <div class="col-12 p-3">
+                          <h3>Ventas</h3>
+                          <i class="fas fa-store fa-5x" aria-hidden="true"></i>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quia. Quod totam porro maxime autem, repellendus facilis ratione et delectus, ea doloremque iste labore minima excepturi placeat voluptates beatae reiciendis.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </section>
       <!--work-->
-      <section>
+      <section >
 
       </section>
       <!--contacto-->
