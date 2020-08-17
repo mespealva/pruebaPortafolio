@@ -22,3 +22,9 @@ a:hover{
     max-width: 100%;
     height: auto;
 }
+footer{
+    color: #ffffff;
+}
+*{
+    scroll-behavior: smooth;
+}
